@@ -8,7 +8,18 @@ It scores a repo or pasted project notes for:
 - policy actions such as deny, log, human review, quarantine, and rate limit
 - explicit tool, network, and filesystem boundaries
 - audit trails and declared-versus-detected intent evidence
+- A2A-style agent identity and capability boundaries
+- Gemini / AI Studio usage patterns that avoid browser-exposed keys
 - safe demo mode, repeatable tests, CI, docs, and secret hygiene
+
+It can export:
+
+- a drill report
+- a Lobster Trap-style policy starter
+- an A2A-style Agent Card starter
+- an audit-event schema
+- a Gemini / AI Studio adversarial-test prompt
+- a concise hackathon or buyer submission summary
 
 Live site:
 
@@ -23,6 +34,14 @@ npm run serve
 ```
 
 Checks run locally in the browser. Uploaded folders/files are not sent to a backend.
+
+## TechEx / lablab Submission
+
+The current submission package is in [`docs/techex-submission-pack.md`](docs/techex-submission-pack.md).
+
+Primary angle: Agent Security & AI Governance.
+
+Secondary angles: Gemini / AI Studio adversarial-test generation and A2A trust-boundary evidence.
 
 ## Why This Exists
 
