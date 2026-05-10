@@ -69,6 +69,10 @@ Contact:
 
 Use a realistic terminal/security-console image, not a generic robot graphic. Visual language should feel like an operations console: policy traces, denied actions, audit ledger, and evidence export.
 
+Current cover asset:
+
+`docs/media/techex-cover.png`
+
 ## Video Script
 
 Opening:
