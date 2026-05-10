@@ -1,0 +1,32 @@
+{
+  "name": "Support Agent Trust Demo",
+  "version": "0.1.0",
+  "url": "https://tateprograms.com/agent-security-drill.html",
+  "provider": {
+    "organization": "Tate Programs",
+    "url": "https://tateprograms.com"
+  },
+  "authentication": {
+    "type": "none",
+    "note": "Demo fixture only. Production callers must use authenticated, scoped access."
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": true
+  },
+  "skills": [
+    {
+      "id": "support_ticket_review",
+      "name": "Support ticket review",
+      "description": "Reviews support tickets and proposes safe next actions without writing to production systems.",
+      "tags": ["support", "agent-security", "audit", "human-review"]
+    },
+    {
+      "id": "security_evidence_export",
+      "name": "Security evidence export",
+      "description": "Returns policy evidence, audit fields, and prompt-injection drill results for reviewer inspection.",
+      "tags": ["governance", "A2A", "policy", "prompt-injection"]
+    }
+  ]
+}

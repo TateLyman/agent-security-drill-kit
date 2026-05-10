@@ -43,6 +43,11 @@ Primary angle: Agent Security & AI Governance.
 
 Secondary angles: Gemini / AI Studio adversarial-test generation and A2A trust-boundary evidence.
 
+Demo materials:
+
+- [`docs/demo-agent-project`](docs/demo-agent-project) is a safe fixture project for recording the demo and showing a high-evidence scan.
+- [`docs/techex-demo-storyboard.md`](docs/techex-demo-storyboard.md) contains the 90-second video flow and voiceover.
+
 ## Why This Exists
 
 Agent demos increasingly need clear proof that policy, review, audit, and runtime controls exist before a buyer, judge, or early user can trust the workflow. This kit turns those expectations into a small, repeatable preflight.

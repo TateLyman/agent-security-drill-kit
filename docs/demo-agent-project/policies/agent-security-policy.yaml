@@ -1,0 +1,84 @@
+policy_name: support-agent-trust-layer
+default_action: HUMAN_REVIEW
+mode: sandbox
+
+ingress_rules:
+  - id: block_system_prompt_extraction
+    match:
+      contains_injection_patterns: true
+      phrases:
+        - ignore previous
+        - reveal system prompt
+        - jailbreak
+        - instruction override
+    action: DENY
+    audit: true
+
+  - id: block_secret_or_private_file_reads
+    match:
+      contains_credentials: true
+      requested_paths:
+        - .env
+        - "**/secrets/**"
+        - "**/.ssh/**"
+        - /etc/**
+    action: DENY
+    audit: true
+
+  - id: route_refunds_to_human_review
+    match:
+      intent_category: payment_or_refund
+      amount_usd_gte: 1
+    action: HUMAN_REVIEW
+    audit: true
+
+  - id: rate_limit_failed_drills
+    match:
+      requests_per_minute_gte: 12
+      prior_denies_gte: 3
+    action: RATE_LIMIT
+    audit: true
+
+egress_rules:
+  allowed_domains:
+    - api.example.invalid
+    - crm.example.invalid
+    - localhost
+  denied_domains:
+    - pastebin.com
+    - webhook.site
+    - attacker.example
+  inspect_model_output: true
+  block_when:
+    contains_urls: true
+    contains_exfiltration_patterns: true
+    contains_credentials: true
+  action: QUARANTINE
+
+filesystem_policy:
+  allowed_read_paths:
+    - fixtures/**
+    - docs/**
+  allowed_write_paths:
+    - var/audit-log.jsonl
+  denied_paths:
+    - .env
+    - "**/secrets/**"
+    - "**/.ssh/**"
+    - /etc/**
+
+tool_scopes:
+  crm_read:
+    permission: read-only
+    allowed_records: support_ticket, account_status
+  crm_write:
+    permission: write access
+    requires: HUMAN_REVIEW
+  refund_create:
+    destructive: true
+    requires: HUMAN_REVIEW
+
+audit:
+  write_decision_log: true
+  compare_declared_versus_detected_intent: true
+  preserve_deny_reason: true

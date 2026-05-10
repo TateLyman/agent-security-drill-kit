@@ -39,13 +39,28 @@ Agent security, AI governance, prompt injection, exfiltration prevention, policy
 ## Demo Flow
 
 1. Open `https://tateprograms.com/agent-security-drill.html`.
-2. Load the demo repo or paste project notes.
+2. Load the safe demo fixture at `docs/demo-agent-project` or paste its project notes.
 3. Show the readiness score and grouped signals.
 4. Open the fix queue and explain the highest-risk missing control.
 5. Export the evidence pack.
 6. Show the generated policy starter, audit event schema, A2A Agent Card, and Gemini drill prompt.
 7. Copy the submission summary.
 8. Close with the buyer story: this converts agent demos into reviewable evidence for enterprise security teams.
+
+## Demo Fixture
+
+Use `docs/demo-agent-project` for the recorded walkthrough. It contains a fictional support-agent project with:
+
+- a Lobster Trap-style policy file,
+- A2A Agent Card,
+- red-team drill pack,
+- audit event schema,
+- policy middleware sketch,
+- safe `.env.example`,
+- CI workflow,
+- and a security runbook.
+
+The fixture is intentionally safe: it uses `example.invalid`, localhost, dry-run mode, and no real credentials or customer data.
 
 ## Submission Fields
 
@@ -86,6 +101,10 @@ Middle:
 Close:
 
 "The target user is any team shipping an agent into an enterprise workflow. Before they ask a buyer, judge, or sponsor to trust the demo, they can show exactly what gets denied, what gets reviewed, and what evidence is preserved."
+
+Full storyboard:
+
+`docs/techex-demo-storyboard.md`
 
 ## Current Source Ledger
 

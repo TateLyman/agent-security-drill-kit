@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SupportAgentAuditEvent",
+  "type": "object",
+  "required": [
+    "request_id",
+    "trace_id",
+    "actor_id",
+    "declared_intent",
+    "detected_intent",
+    "matched_rule",
+    "verdict",
+    "policy_action",
+    "risk_score"
+  ],
+  "properties": {
+    "request_id": { "type": "string" },
+    "trace_id": { "type": "string" },
+    "actor_id": { "type": "string" },
+    "declared_intent": { "type": "string" },
+    "detected_intent": { "type": "string" },
+    "matched_rule": { "type": "string" },
+    "verdict": { "enum": ["allow", "deny", "review", "quarantine", "rate_limit"] },
+    "policy_action": { "enum": ["ALLOW", "DENY", "HUMAN_REVIEW", "QUARANTINE", "RATE_LIMIT"] },
+    "deny_reason": { "type": "string" },
+    "reviewer_state": { "enum": ["not_required", "pending", "approved", "rejected"] },
+    "risk_score": { "type": "number", "minimum": 0, "maximum": 1 }
+  }
+}
