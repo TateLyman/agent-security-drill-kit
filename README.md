@@ -37,7 +37,7 @@ Checks run locally in the browser. Uploaded folders/files are not sent to a back
 
 ## TechEx / lablab Submission
 
-The current submission package is in [`docs/techex-submission-pack.md`](docs/techex-submission-pack.md).
+The current submission package is in [`docs/techex-submission-pack.md`](docs/techex-submission-pack.md), with paste-ready lablab fields in [`docs/lablab-field-copy.md`](docs/lablab-field-copy.md).
 
 Primary angle: Agent Security & AI Governance.
 
