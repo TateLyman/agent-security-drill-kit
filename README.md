@@ -47,6 +47,7 @@ Demo materials:
 
 - [`docs/techex-judge-brief.md`](docs/techex-judge-brief.md) is the one-page judge brief for the May 2026 active build window.
 - [`docs/agent-security-drill-kit-techex-pitch.pptx`](docs/agent-security-drill-kit-techex-pitch.pptx) is the editable six-slide submission deck.
+- [`docs/media/agent-security-drill-demo.mp4`](docs/media/agent-security-drill-demo.mp4) is a short captioned walkthrough of the safe fixture scan.
 - [`docs/demo-agent-project`](docs/demo-agent-project) is a safe fixture project for recording the demo and showing a high-evidence scan.
 - [`docs/techex-demo-storyboard.md`](docs/techex-demo-storyboard.md) contains the 90-second video flow and voiceover.
 

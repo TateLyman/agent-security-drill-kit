@@ -126,6 +126,10 @@ Slide presentation:
 
 `docs/agent-security-drill-kit-techex-pitch.pptx`
 
+Demo video:
+
+`docs/media/agent-security-drill-demo.mp4`
+
 ## Video Script
 
 Opening:

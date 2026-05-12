@@ -42,6 +42,7 @@ Originality:
 - Safe fixture: `docs/demo-agent-project`
 - Cover image: `docs/media/techex-cover.png`
 - Slide deck: `docs/agent-security-drill-kit-techex-pitch.pptx`
+- Demo video: `docs/media/agent-security-drill-demo.mp4`
 - Storyboard: `docs/techex-demo-storyboard.md`
 - Field copy: `docs/lablab-field-copy.md`
 
