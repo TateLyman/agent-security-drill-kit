@@ -1,0 +1,131 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 794 >>
+stream
+q
+0.98 0.98 0.96 rg 0 0 960 540 re f
+0.04 0.08 0.07 rg 48 48 864 444 re f
+0.95 0.98 0.95 rg BT /F1 34 Tf 82 448 Td (Agent Security Drill Kit) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 392 Td (Browser-only trust console for enterprise agent demos.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 364 Td (Local policy checks, prompt-injection drills, audit schema,) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 336 Td (A2A identity starter, AI Studio drill prompt, and fix queue.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 290 Td (Live: https://tateprograms.com/agent-security-drill.html) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 262 Td (Repo: https://github.com/TateLyman/agent-security-drill-kit) Tj ET
+0.36 0.93 0.61 rg 82 74 170 5 re f
+0.70 0.75 0.70 rg BT /F1 12 Tf 782 76 Td (TechEx submission deck) Tj ET
+Q
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 697 >>
+stream
+q
+0.98 0.98 0.96 rg 0 0 960 540 re f
+0.04 0.08 0.07 rg 48 48 864 444 re f
+0.95 0.98 0.95 rg BT /F1 34 Tf 82 448 Td (The Problem) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 392 Td (Agent demos are easy to ship and hard to trust.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 364 Td (Teams need evidence for what the agent can access, what gets denied,) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 336 Td (what requires review, and what gets logged before an enterprise pilot.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 290 Td (Hackathon judging has the same gap: working demo plus security proof.) Tj ET
+0.36 0.93 0.61 rg 82 74 170 5 re f
+0.70 0.75 0.70 rg BT /F1 12 Tf 782 76 Td (TechEx submission deck) Tj ET
+Q
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 815 >>
+stream
+q
+0.98 0.98 0.96 rg 0 0 960 540 re f
+0.04 0.08 0.07 rg 48 48 864 444 re f
+0.95 0.98 0.95 rg BT /F1 34 Tf 82 448 Td (What It Does) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 392 Td (Loads a local project folder or pasted project notes in the browser.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 364 Td (Scores policy, prompt-injection handling, exfiltration controls,) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 336 Td (tool scope, filesystem/network boundaries, human review, tests, CI,) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 308 Td (documentation, A2A identity, Gemini key safety, and audit trails.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 262 Td (Exports a concise fix order and reusable trust artifacts.) Tj ET
+0.36 0.93 0.61 rg 82 74 170 5 re f
+0.70 0.75 0.70 rg BT /F1 12 Tf 782 76 Td (TechEx submission deck) Tj ET
+Q
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 750 >>
+stream
+q
+0.98 0.98 0.96 rg 0 0 960 540 re f
+0.04 0.08 0.07 rg 48 48 864 444 re f
+0.95 0.98 0.95 rg BT /F1 34 Tf 82 448 Td (Outputs) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 392 Td (Policy starter for denied actions and human review gates.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 364 Td (A2A-style Agent Card for identity and capability claims.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 336 Td (Audit-event schema for evidence-backed reviewer handoffs.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 308 Td (Gemini / AI Studio adversarial drill prompt.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 280 Td (Submission summary and prioritized patch queue.) Tj ET
+0.36 0.93 0.61 rg 82 74 170 5 re f
+0.70 0.75 0.70 rg BT /F1 12 Tf 782 76 Td (TechEx submission deck) Tj ET
+Q
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 818 >>
+stream
+q
+0.98 0.98 0.96 rg 0 0 960 540 re f
+0.04 0.08 0.07 rg 48 48 864 444 re f
+0.95 0.98 0.95 rg BT /F1 34 Tf 82 448 Td (Why It Fits TechEx) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 392 Td (Agent security and governance layer for intelligent enterprise workflows.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 364 Td (Runs safely with no real credentials and no server requirement.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 336 Td (Designed for buyers, sponsors, judges, and technical reviewers.) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 308 Td (The business path is security-readiness reports for agent pilots,) Tj ET
+0.87 0.90 0.86 rg BT /F1 18 Tf 84 280 Td (hackathon teams, sponsor demos, and customer handoffs.) Tj ET
+0.36 0.93 0.61 rg 82 74 170 5 re f
+0.70 0.75 0.70 rg BT /F1 12 Tf 782 76 Td (TechEx submission deck) Tj ET
+Q
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 960 540] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000147 00000 n 
+0000000217 00000 n 
+0000001062 00000 n 
+0000001188 00000 n 
+0000001936 00000 n 
+0000002062 00000 n 
+0000002928 00000 n 
+0000003054 00000 n 
+0000003856 00000 n 
+0000003984 00000 n 
+0000004854 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+4982
+%%EOF
