@@ -20,6 +20,8 @@ The output is designed for judges, security reviewers, and early customers. It e
 
 The core value is practical: before a team asks anyone to trust an agent workflow, they can show exactly what gets denied, what gets reviewed, what gets logged, and what still needs to be patched.
 
+During the TechEx active build window, the project is positioned as an enterprise review layer rather than another agent demo. The strongest judge frame is: agent capability is becoming common; reviewable trust evidence is still scarce.
+
 ## Problem
 
 Enterprise agent adoption is blocked by missing trust evidence. Many teams can demo useful behavior, but they cannot clearly show policy enforcement, prompt-injection resilience, tool permissions, audit trails, or human review controls.
@@ -69,6 +71,16 @@ Most agent-security demos stop at detection or generic guardrails. This project 
 ## Business Value
 
 Agent teams need a faster path through security review. A tool like this can become a paid launch review, a repo scanner, or a lightweight governance layer for teams preparing demos, hackathon submissions, pilot deployments, or buyer handoffs.
+
+## Judging Criteria Notes
+
+Application of technology: local browser scan, structured scoring, evidence export, A2A identity, Gemini drill prompt, audit schema.
+
+Presentation: safe fixture project, 90-second demo, clear buyer-review story.
+
+Business value: faster review for enterprise agent pilots and security-conscious launches.
+
+Originality: trust evidence around the agent, not just another task-performing agent.
 
 ## Demo Script
 

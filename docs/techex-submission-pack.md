@@ -16,6 +16,18 @@ Agent Security Drill Kit solves that review gap with a local, no-backend console
 
 The product is intentionally practical for hackathon demos and real buyers. It does not ask teams to trust a black-box scanner or upload code to a third party. It helps a builder create the evidence an enterprise security reviewer, sponsor judge, or early customer can inspect.
 
+## Active Phase Positioning
+
+The May 2026 TechEx prompt is about enterprise-ready agents, intelligent systems, deployment, governance, and business value. The submission should be framed as an evidence layer for that exact moment: teams are no longer judged only on whether an agent can complete a task, but on whether the controls around the task are visible, testable, and reviewable.
+
+Use this short version in any "what changed during the hackathon" field:
+
+> We narrowed the project around the enterprise review moment: before an agent demo reaches a buyer, judge, or sponsor, the builder needs a local way to show policy coverage, risky-action boundaries, auditability, and adversarial drills. The current build converts a repo or pasted notes into that evidence pack.
+
+Judge brief:
+
+`docs/techex-judge-brief.md`
+
 ## Primary Track Fit
 
 Agent Security & AI Governance.
@@ -35,6 +47,28 @@ The evidence pack exports an A2A-style Agent Card starter with provider identity
 ## Technology Tags
 
 Agent security, AI governance, prompt injection, exfiltration prevention, policy enforcement, audit trail, A2A, Gemini, Google AI Studio, Lobster Trap, browser File API, JavaScript, static web app.
+
+## Judging Criteria Map
+
+Application of technology:
+
+- Uses the browser File API to inspect local project evidence without upload risk.
+- Scores policy, prompt-injection drills, exfiltration handling, tool scopes, network and filesystem boundaries, human review, rate limits, safe demo mode, audit logs, tests, CI, documentation, A2A identity, and Gemini key safety.
+- Exports concrete artifacts: policy starter, A2A Agent Card, audit schema, Gemini adversarial-test prompt, fix queue, and submission summary.
+
+Presentation:
+
+- Demo fixture is safe but concrete, so the walkthrough can show a realistic review without touching live customer data or credentials.
+- Story is easy to judge: "do not only trust the agent; inspect the controls."
+
+Business value:
+
+- Enterprise agent teams lose time in pilot and buyer review when trust evidence is scattered or missing.
+- The product can turn into paid launch reviews, repo checks, or a lightweight governance workbench for agent teams.
+
+Originality:
+
+- Most agent demos showcase capability. This one showcases the security and governance evidence that makes capability acceptable.
 
 ## Demo Flow
 
@@ -87,6 +121,10 @@ Use a realistic terminal/security-console image, not a generic robot graphic. Vi
 Current cover asset:
 
 `docs/media/techex-cover.png`
+
+Slide presentation:
+
+`docs/agent-security-drill-kit-techex-pitch.pptx`
 
 ## Video Script
 
